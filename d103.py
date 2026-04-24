@@ -18,8 +18,8 @@ jogador(n, g)"""
 def jogador(nome='<desconhecido>', gol=0):
     """
     Descreve o nome e os gols de um jogador.
-    nome: Nome do jogador
-    gol: Gols realizados pelo jogador.
+    :param nome: Nome do jogador
+    :param gol: Gols realizados pelo jogador.
     """
     print(f'O jogador {nome} fez {gol} gol(s) no campeonato.')
 
